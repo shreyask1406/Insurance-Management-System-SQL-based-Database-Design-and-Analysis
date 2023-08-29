@@ -22,7 +22,7 @@ The primary tables in the relational model include:
 * Cust_Policy: Establishes the relationship between customers and policies, storing Customer_ID and Policy_no.
 * Claim_Policy: Represents the relationship between claims and policies, storing Claim_ID and Policy_no.
 
-## Implementation and Analysis (MySQL)
+## MySQL Implementation and Analysis 
 ### Key Problem Statements:
 
 * Number of customers and agents in each city.
@@ -35,6 +35,9 @@ The primary tables in the relational model include:
 
 ### Connecting Database to Python
 MySQL is connected to Python using mysql.connector. Visualizations are created using Python to analyze the problem statements.
+
+## MongoDB Implementation
+In addition to the relational model, we've also implemented the insurance management system using MongoDB, a powerful NoSQL database.The MongoDB implementation parallels the relational model in addressing specific problem statements. By leveraging MongoDB Compass, we executed queries to extract meaningful insights from the collections. This included determining the number of customers and agents in a particular city, identifying the top-performing agents based on the number of policies, and obtaining a list of different home types along with their age and area for home insurance. MongoDB's schema flexibility and powerful querying capabilities made it possible to derive valuable information from these scenarios.
 
 ## Features and Future Scope
 * Triggers for payment validation.
